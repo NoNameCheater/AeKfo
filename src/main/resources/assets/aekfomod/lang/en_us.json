@@ -7,5 +7,7 @@
   "block.aekfomod.fire_crystal_block": "Block of Fire Crystal",
   "block.aekfomod.water_crystal_block": "Block of Water Crystal",
   "block.aekfomod.earth_crystal_block": "Block of Earth Crystal",
-  "block.aekfomod.air_crystal_block": "Block of Air Crystal"
+  "block.aekfomod.air_crystal_block": "Block of Air Crystal",
+
+  "creativetab.aekfomod.elemental_crystals": "Elemental Crystals"
 }
