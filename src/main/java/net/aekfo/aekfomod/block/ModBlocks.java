@@ -42,6 +42,12 @@ public class ModBlocks {
                     .strength(3f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ELEMENTAL_ORE = registerBlock("elemental_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -24,11 +24,13 @@ public class ModCreativeTabs {
                         output.accept(ModItems.WATER_CRYSTAL.get());
                         output.accept(ModItems.EARTH_CRYSTAL.get());
                         output.accept(ModItems.AIR_CRYSTAL.get());
+                        output.accept(ModItems.BALANCED_CRYSTAL.get());
 
                         output.accept(ModBlocks.FIRE_CRYSTAL_BLOCK.get().asItem());
                         output.accept(ModBlocks.WATER_CRYSTAL_BLOCK.get().asItem());
                         output.accept(ModBlocks.EARTH_CRYSTAL_BLOCK.get().asItem());
                         output.accept(ModBlocks.AIR_CRYSTAL_BLOCK.get().asItem());
+                        output.accept(ModBlocks.ELEMENTAL_ORE.get().asItem());
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -21,6 +21,9 @@ public class ModItems {
     public static final DeferredItem<Item> AIR_CRYSTAL = ITEMS.register("air_crystal",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> BALANCED_CRYSTAL = ITEMS.register("balanced_crystal",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

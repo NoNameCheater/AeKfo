@@ -3,7 +3,9 @@
   "item.aekfomod.water_crystal": "Water Crystal",
   "item.aekfomod.earth_crystal": "Earth Crystal",
   "item.aekfomod.air_crystal": "Air Crystal",
+  "item.aekfomod.balanced_crystal": "Balanced Crystal",
 
+  "block.aekfomod.elemental_ore": "Elemental Ore",
   "block.aekfomod.fire_crystal_block": "Block of Fire Crystal",
   "block.aekfomod.water_crystal_block": "Block of Water Crystal",
   "block.aekfomod.earth_crystal_block": "Block of Earth Crystal",
