@@ -1,4 +1,7 @@
 {
   "item.aekfomod.bismuth": "Bismuth",
-  "item.aekfomod.raw_bismuth": "Raw Bismuth"
+  "item.aekfomod.raw_bismuth": "Raw Bismuth",
+
+  "block.aekfomod.bismuth_block": "Block of Bismuth",
+  "block.aekfomod.bismuth_ore": "Bismuth Ore"
 }
