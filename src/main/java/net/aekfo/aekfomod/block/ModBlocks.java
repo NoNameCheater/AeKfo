@@ -19,12 +19,29 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(AeKfoMod.MOD_ID);
 
-    public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
+    public static final DeferredBlock<Block> FIRE_CRYSTAL_BLOCK = registerBlock("fire_crystal_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
-    public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
-            () -> new DropExperienceBlock(UniformInt.of(2, 4),
-                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.GLASS)));
+
+    public static final DeferredBlock<Block> WATER_CRYSTAL_BLOCK = registerBlock("water_crystal_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WET_GRASS)));
+
+    public static final DeferredBlock<Block> EARTH_CRYSTAL_BLOCK = registerBlock("earth_crystal_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> AIR_CRYSTAL_BLOCK = registerBlock("air_crystal_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

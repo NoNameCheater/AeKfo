@@ -1,7 +1,11 @@
 {
-  "item.aekfomod.bismuth": "Bismuth",
-  "item.aekfomod.raw_bismuth": "Raw Bismuth",
+  "item.aekfomod.fire_crystal": "Fire Crystal",
+  "item.aekfomod.water_crystal": "Water Crystal",
+  "item.aekfomod.earth_crystal": "Earth Crystal",
+  "item.aekfomod.air_crystal": "Air Crystal",
 
-  "block.aekfomod.bismuth_block": "Block of Bismuth",
-  "block.aekfomod.bismuth_ore": "Bismuth Ore"
+  "block.aekfomod.fire_crystal_block": "Block of Fire Crystal",
+  "block.aekfomod.water_crystal_block": "Block of Water Crystal",
+  "block.aekfomod.earth_crystal_block": "Block of Earth Crystal",
+  "block.aekfomod.air_crystal_block": "Block of Air Crystal"
 }

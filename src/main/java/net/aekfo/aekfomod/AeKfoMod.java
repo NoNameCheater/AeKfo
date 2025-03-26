@@ -54,13 +54,16 @@ public class AeKfoMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BISMUTH);
-            event.accept(ModItems.RAW_BISMUTH);
+            event.accept(ModItems.FIRE_CRYSTAL);
+            event.accept(ModItems.EARTH_CRYSTAL);
+            event.accept(ModItems.WATER_CRYSTAL);
+            event.accept(ModItems.AIR_CRYSTAL);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.BISMUTH_BLOCK);
-            event.accept(ModBlocks.BISMUTH_ORE);
-
+            event.accept(ModBlocks.FIRE_CRYSTAL_BLOCK);
+            event.accept(ModBlocks.EARTH_CRYSTAL_BLOCK);
+            event.accept(ModBlocks.WATER_CRYSTAL_BLOCK);
+            event.accept(ModBlocks.AIR_CRYSTAL_BLOCK);
         }
     }
 

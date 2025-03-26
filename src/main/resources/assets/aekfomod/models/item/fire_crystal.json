@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "aekfomod:item/raw_bismuth"
+    "layer0": "aekfomod:item/fire_crystal"
   }
 }
