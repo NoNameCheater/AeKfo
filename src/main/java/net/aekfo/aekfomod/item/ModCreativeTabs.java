@@ -30,24 +30,6 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.EARTH_CRYSTAL_BLOCK.get().asItem());
                         output.accept(ModBlocks.AIR_CRYSTAL_BLOCK.get().asItem());
                     }).build());
-// just how to add example below second
-/*    public static final Supplier<CreativeModeTab> ELEMENTAL_CRYSTAL_BlOCKS_TAB = CREATIVE_MODE_TAB.register("elemental_crystal_block",
-            () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.FIRE_CRYSTAL_BLOCK.get()))
-                    .title(Component.translatable("creativetab.aekfomod.elemental_crystal_blocks"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.FIRE_CRYSTAL.get());
-                        output.accept(ModItems.WATER_CRYSTAL.get());
-                        output.accept(ModItems.EARTH_CRYSTAL.get());
-                        output.accept(ModItems.AIR_CRYSTAL.get());
-
-                        output.accept(ModBlocks.FIRE_CRYSTAL_BLOCK.get().asItem());
-                        output.accept(ModBlocks.WATER_CRYSTAL_BLOCK.get().asItem());
-                        output.accept(ModBlocks.EARTH_CRYSTAL_BLOCK.get().asItem());
-                        output.accept(ModBlocks.AIR_CRYSTAL_BLOCK.get().asItem());
-                    }).build());
- */
-
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
