@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": { "item": "aekfomod:fire_crystal" },
+    "A": { "item": "aekfomod:air_crystal" },
+    "W": { "item": "aekfomod:water_crystal" },
+    "E": { "item": "aekfomod:earth_crystal" }
+  },
+  "pattern": [
+    "FA",
+    "WE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aekfomod:balanced_crystal"
+  }
+}

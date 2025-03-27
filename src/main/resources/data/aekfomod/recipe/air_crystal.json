@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aekfomod:air_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "aekfomod:air_crystal"
+  }
+}

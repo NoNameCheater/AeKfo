@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aekfomod:water_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "aekfomod:water_crystal"
+  }
+}

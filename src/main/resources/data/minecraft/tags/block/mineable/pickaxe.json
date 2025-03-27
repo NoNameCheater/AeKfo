@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aekfomod:fire_crystal_block",
+    "aekfomod:water_crystal_block",
+    "aekfomod:air_crystal_block",
+    "aekfomod:earth_crystal_block",
+    "aekfomod:elemental_ore"
+  ]
+}

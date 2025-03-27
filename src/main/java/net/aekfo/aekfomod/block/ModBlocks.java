@@ -42,11 +42,18 @@ public class ModBlocks {
                     .strength(3f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));
+
     public static final DeferredBlock<Block> ELEMENTAL_ORE = registerBlock("elemental_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)));
+            () -> new DropExperienceBlock(
+                    UniformInt.of(0, 0), // No XP, but ensures loot table is used
+                    BlockBehaviour.Properties.of()
+                            .strength(3f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.STONE)
+            )
+    );
+
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
